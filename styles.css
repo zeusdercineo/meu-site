@@ -1,0 +1,142 @@
+/* Reset de estilos para garantir consistência entre navegadores */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo básico para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+}
+
+/* Estilo para o cabeçalho (header) */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+    padding: 10px;
+    font-size: 1.8rem;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    color: #ffcc00;
+}
+
+/* Estilo para a seção do herói (hero) */
+.hero {
+    background-image: url('hero-background.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: #fff;
+    padding: 100px 0;
+}
+
+.hero h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.hero .button {
+    background-color: #ffcc00;
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.hero .button:hover {
+    background-color: #e6b800;
+}
+
+/* Estilo para as seções principais (sobre, serviços, portfolio, contato) */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.about, .services, .portfolio, .contact {
+    margin-bottom: 40px;
+}
+
+.about h2, .services h2, .portfolio h2, .contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.services .service {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.services .service h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.services .service p {
+    font-size: 1.2rem;
+}
+
+.portfolio .gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.portfolio .gallery img {
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+/* Estilo para o rodapé (footer) */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer p {
+    margin: 0;
+    padding: 10px;
+    font-size: 1rem;
+}
